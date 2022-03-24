@@ -1,0 +1,9 @@
+{
+    "files.autoSave": "afterDelay",
+    "workbench.preferredLightColorTheme": "Tomorrow Night Blue",
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.preferredDarkColorTheme": "Tomorrow Night Blue",
+    "workbench.preferredHighContrastColorTheme": "Tomorrow Night Blue",
+    "jupyter.themeMatplotlibPlots": true
+}
