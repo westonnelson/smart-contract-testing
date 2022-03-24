@@ -1,10 +1,13 @@
+import { JsonRpcProvider } from "@ethersproject/providers";
 import { ethers, Wallet } from "ethers";
 
 (async () => {
 
-const connection = new ethers.providers.JsonRpcProvider('https://mainnet.infura.io/v3/1628d9d5818d42db81b70ed204f84170')
+const WEB3_INFURA_PROVIDER_KEY = JsonRpcProvider
 
-DEV_WALLET = Wallet
+const connection = new ethers.providers.JsonRpcProvider(WEB3_INFURA_PROVIDER_KEY);
+
+\
 
 const gasPrice = connection.getGatPrice()
 const wallet = ethers.Wallet
