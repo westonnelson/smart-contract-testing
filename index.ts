@@ -3,6 +3,8 @@ import { ethers, Wallet } from "ethers";
 
 (async () => {
 
+import WEB3_INFURA_PROVIDER_KEY from env
+ 
 const WEB3_INFURA_PROVIDER_KEY = JsonRpcProvider
 
 const connection = new ethers.providers.JsonRpcProvider(WEB3_INFURA_PROVIDER_KEY);
